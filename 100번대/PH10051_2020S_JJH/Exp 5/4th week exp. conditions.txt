@@ -1,0 +1,16 @@
+Experimental conditions
+
+Hanger weight with balance: 205 g
+circumference (¿øµÑ·¹) of the rotational axis: 7 cm (not radius !!!)
+
+weight of rotating disk: 1725 g
+diameter of rotating disk: 12.5 cm
+
+weight of ring: 1422 g
+inside diameter of ring: 5.1 cm
+outside diameter of ring: 6.3 cm
+
+weight of bar: 193 g
+length of bar: 40 cm
+weight of blance: 50 g (2 ea)
+Distance between two 50 g weight: 36 cm (from the center of the bar)
