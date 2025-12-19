@@ -1,0 +1,14 @@
+def compute_cost(n, dimensions):
+    rec = [[float('inf')]*n for _ in range (n)]
+
+    for i in range(n):
+        rec[i][i] = 0
+
+    for length in range (2, n+1):
+        for i in range ( n-length +1):
+            j = i + length -1
+
+            for k in range(i, j):
+                cost = rec[i][k] + rec[k+1][j] + dimensions[i]*dimensions[k+1]*dimensions[j+1]
+                rec[i][j] = min(rec[i][j], cost)
+    return rec[0][n-1]
